@@ -1,0 +1,233 @@
+.body
+{
+margin: 0px;
+padding: 0px;
+}
+.Hero
+{
+    display: flex;
+    flex-direction: row;
+    width: Fixed (1,512px);
+    height: Hug (808px);
+    top: 112px;
+    padding: 140px, 160px, 140px, 160px;
+    gap: 8px;
+    /* background: rgba(248, 245, 240, 1); */
+    background: rgba(248, 245, 240, 1);
+
+}
+.leftgroup
+{
+    display: flex;
+    position: relative;
+    width: 440.49px;
+    height: 804.04px; 
+    padding-bottom: 0px;       
+}
+.hands_1
+{
+    position: absolute;
+    width: 414px;
+    height: 217px;
+    
+}
+.leftline
+{
+    width: 440.49px;
+    height: 804.04px;
+    top: 5px;
+    left: -142px;
+}
+.bb_1
+{
+    position: absolute;
+    width: 44.12px;
+    height: 69.77px;
+    rotate: 15 deg;
+    margin-top: 257px;
+    margin-left: 207px;
+}
+.fb_1
+{
+    position: absolute;
+    width: 54.8px;
+    height: 53.14px;
+    rotate: 17.64 deg;
+    z-index: 1;
+    margin-top: 699px;
+    margin-left: 132px;
+}
+.inst
+{
+    position: absolute;
+    width: 26.76px;
+    height: 26.24px;
+    rotate: -157.75 deg;
+    margin-top: 336.39px;
+    margin-left: 35.49px;
+}
+.content
+{
+    width: Hug (977px);
+    height: Hug (528px);
+    gap: 32px;
+    margin-bottom: 140px;
+    margin-top: 100px;
+    padding-left:50px;
+    margin-left: -267.5px;
+}
+.slogan
+{
+    width: 977px;
+    height: 336px;
+    font-family: "SF Pro Display";
+    font-size: 112px;
+    font-weight: 700;
+    line-height: 112px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(31, 57, 44, 1); 
+    padding-left: -1000px;
+    padding-top: -1000px;
+}
+.description
+{
+    width: 773px;
+    height: 64px;
+    font-family: "SF Pro Text";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(31, 57, 44, 1);
+    margin-left: 102px;
+    margin-top: -50px;
+}
+.input
+{
+    position: relative;
+    display: flex;
+    width: 567px;
+    height: 64px;
+    padding: 8px, 0px, 8px, 16px;
+    border-radius: 100px;
+    gap: 4px;
+    background: rgba(255, 255, 255, 1);
+    margin-left: 205px;
+    margin-right: 205px;
+}
+.formcontent
+{
+    width: Fill (551px);
+    height: Fill (48px);
+    padding: 0px, 8px, 0px, 24px;
+    justify-content: space-between;
+    margin-left: 16px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    
+}
+.support/*Email*/
+{
+    position: absolute;
+    width: 153px;
+    height: 24px;
+    font-family: "SF Pro Text";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(212, 212, 212, 1);
+    border: rgba(212, 212, 212, 1);
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.button
+{
+    position: absolute;
+    width: 102px;
+    height:48px;
+    border-radius: 24px;
+    gap: 10px;
+    background: rgba(255, 96, 230, 1);
+    border-color:rgba(255, 96, 230, 1);
+    margin-left: 441px;
+}
+.joinLabel
+{
+    width: 38px;
+    height: 24px;
+    font-family: SF Pro Text;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: rgba(31, 57, 44, 1);
+}
+.rightgroup
+{
+    display: flex;
+    position: relative;
+    width: 376.39px;
+    height: 507.35px;
+    background: rgba(255, 173, 242, 1);
+    margin-top: 209px;
+    margin-bottom: 91.65px;
+    
+}
+.hands_2
+{
+    position: absolute;
+    width: 403px;
+    height: 426px;
+    margin-top: 415px;
+    transform: translateX(-7%);
+    /* transform: translateX(-12%); */
+}
+.rightLine
+{
+    position: relative;
+    width: 376.39px;
+    height: 507.35px;
+    top: 209px;
+    z-index: 1;
+}
+.bb_2
+{
+    position: absolute;
+    width: 66.64px;
+    height: 105.39px;
+    rotate: 8.62 deg;
+    top:50%;
+    /* right: 10px; */
+    transform: translateX(-55%);
+    transform: translateY(-105%);
+    
+}
+.yt
+{
+    position: absolute;
+    width: 37.15px;
+    height: 26.7px;
+    rotate: -25.59 deg;
+    margin-right: 292.46px;
+    margin-top: 228.87px;
+    bottom: 50px;
+    right: 0;
+    transform: translateX(295%);
+}
+.fb_2
+{
+    position: absolute;
+    margin-top: 140px;
+    margin-right: 10.65px;
+    width: 32.85px;
+    height: 31.86px;
+    rotate: -21.85 deg;
+    top: 10px;
+    right: 10px;
+    
+}
